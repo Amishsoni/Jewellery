@@ -1,0 +1,14 @@
+/* section : 4 "OUR BESTSELLING ITEMS bottom start  */
+.best_saleing_iteams {
+    text-align: center;
+  }
+  
+  .best_saleing_iteams_header h2 p {
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Poppins", Sans-serif;
+  }
+    
+  /* section : 3 "OUR BESTSELLING ITEMS" bottom End  */

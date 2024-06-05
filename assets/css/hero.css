@@ -1,0 +1,370 @@
+/* hero banner start */
+.main_hero_content {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+  }
+  
+  .hero_banner_img img {
+    height: 90%;
+    position: absolute;
+    max-width: 1260px;
+    min-height: 590px;
+  }
+  .carousal-div{
+    position: relative;
+  }
+  .carousel-inner {
+    /* height: 588px; */
+  }
+  
+  #carouselExampleSlidesOnly {
+    position: relative;
+  
+  }
+  
+  .hero-div {
+    /* background-color: red; */
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+  }
+
+  .hero_banner_content h5 {
+    font-size: 2.5rem;
+    color: red;
+    font-family: "Romen";
+    font-weight: 500;
+    animation-delay: 0.5s;
+  }
+  
+  .hero_banner_content h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.3rem;
+    animation-delay: 1s;
+  
+  }
+  
+  .hero_banner_content p {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    color: gray;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    animation-delay: 2s;
+  }
+  
+  .hero_banner_content img {
+    width: 100%;
+    height: 100%;
+    max-width: 350px;
+    /* margin-top: 20px; */
+    animation-delay: 2s;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .hero_banner_button button {
+    background-color: black;
+    padding: 8px 20px;
+    border-radius: 20px;
+    color: #ffffff;
+    padding: 7px 22px;
+    margin-top: 3rem;
+    border: none;
+    margin-left: 90px;
+    animation-delay: 3s;
+  }
+  
+  .hero_banner_content h5,
+  .hero_banner_content h1,
+  .hero_banner_content p,
+  .hero_banner_content img,
+  .hero_banner_button button {
+    opacity: 0;
+    animation: fadeInUp 1s ease-in-out forwards;
+  }
+  
+  /* Keyframes */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  #container-fluid {
+    background-color: #444;
+  }
+  
+  /* hero banner End */
+  
+  /* hero banner bottome section start */
+  .flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    gap: 30px;
+  }
+  
+  .flex-item {
+    flex: 1;
+    min-width: 200px;
+    background-color: #f7f7f7;
+    
+    text-align: center;
+  }
+  
+  .flex-item i {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    background: #f3d400;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
+  .flex-item h4 {
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+  
+  .flex-item p {
+    font-size: 0.75rem;
+    color: #555;
+  }
+  
+  /* hero banner bottom section End */
+  
+  /* banner_bottom_start */
+  .feature{
+    width: 98%;
+    margin: auto;
+    margin-top: 45px;
+  }
+  
+  .feature1{
+    max-width: 86%;
+    margin: auto;
+    margin-top:45px ;
+  }
+  
+  .left_banner {
+    position: relative;
+    width: 100%;
+    /* height: 300px; */
+    /* background-color: aqua; */
+  }
+  
+  .left_img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition-duration: 3s;
+  }
+  
+  .left_img img {
+    width: 100%;
+    height: auto;
+    ransform: scale3d(1, 1, 1);
+    transition: 0.5s ease-in-out;
+    object-fit: cover;
+  }
+  
+  .left_img img:hover {
+    transform: scale(1.2);
+  }
+  
+  .left_content {
+    position: absolute;
+    top: 12%;
+    left: 12%;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .left_content h3 {
+    font-size: 2rem;
+    margin: 0 0 10px;
+  }
+  
+  .left_content a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: black;
+    border-bottom: 2px solid black;
+    text-decoration: none;
+    /* border-radius: 5px; */
+    margin-top: 25px;
+  }
+  
+  .left_content a:hover {
+      color: grey;
+      border-color: grey;
+  }
+  
+  .right_banner {
+    position: relative;
+    width: 100%;
+    height: 300px;
+   background-color: #f7f7f7;
+    overflow: hidden;
+  }
+  
+  .right_img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    transition-duration: 3s;
+  }
+  
+  .right_banner img {
+    width: 100%;
+    height: auto;
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+  }
+  
+  .right_banner img:hover {
+    transform: scale(1.2);
+  }
+  
+  
+  .right_content {
+    position: absolute;
+    top: 110px;
+    left: 264px;
+    height: 55%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+    height: 50%;
+    border-radius: 8px;
+  }
+  
+  .right_content h3 {
+    font-size: 2rem;
+    margin: 0 0 10px;
+  }
+  
+  .right_content a {
+    display: inline-block;
+    padding: 10px;
+    color: black;
+    border-bottom: 2px solid black;
+    text-decoration: none;
+    margin-top: 0px;
+  }
+  /* banner_bottom_End */
+  
+  .right_content a:hover {
+     color: grey;
+     border-color: grey;
+  }
+
+
+
+  .flex-item {
+    /* flex: 1; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 200px;
+    
+    text-align: center;
+    background-color: transparent; /* Remove background color */
+  }
+  
+  .flex-item i {
+    font-size: 2rem;
+    margin-bottom: 5px;
+    color: #f3d400; /* Set icon color */
+  }
+  
+  .flex-item-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center text */
+  }
+  
+  .flex-item h4 {
+    margin: 5px 0;
+    font-size: 1rem;
+    margin-left: 20px;
+  }
+  
+  .flex-item p {
+    font-size: 0.75rem;
+    color: #555;
+    margin-left: 20px;
+  }
+  @media only screen and (max-width:575px){
+    .flex-container{
+       padding-top:  0px;
+    }
+    .  .left_img img {
+         width: 100%;
+         height: auto;
+    }
+    .left_content{
+      position: absolute;
+      top: 9%;
+      left: 0px;
+      color: black;
+      text-align: center;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    .left_content h3 {
+        font-size: 20px;
+    }
+    .left_content a {
+       display: none;
+    }
+    .right_banner {
+      position: relative;
+      width: 100%;
+      height: 150px;
+      background-color: #f7f7f7;
+      overflow: hidden;
+  }
+  .right_content{
+    position: absolute;
+    top: 70px !important;
+    left: 264px;
+    height: 55%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+    border-radius: 8px;
+  }
+  .right_content h3 {
+    font-size: 24px;
+    text-wrap: nowrap;
+  }
+  .right_content a {
+     display: none;
+  }
+  }
