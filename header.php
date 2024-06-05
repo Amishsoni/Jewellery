@@ -13,6 +13,20 @@
   <link rel="stylesheet" href="./assets/css/journal.css">
   <link rel="stylesheet" href="./assets/css/footer.css">
 
+  <!-- font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
   <!-- bootstrap link -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
@@ -43,7 +57,7 @@
 <section class="top-header-container">
     <div class="container">
 
-            <div class="top-header-inner d-flex align-items-center p-2">
+            <div class="top-header-inner d-flex align-items-center ">
                 <div class="menu-short-container">
                     <ul id="top-header-menu" class="menu d-flex">
                         <li id="menu-item-2819" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2819">
@@ -63,20 +77,21 @@
                 <aside id="dici-top-header-sidebar" class="dici-top-header-widget-area d-flex align-items-center justify-content-end">
                     <section id="woocs_selector-2" class="top-header-widget WOOCS_SELECTOR">
                         <div class="widget widget-woocommerce-currency-switcher">
-                            <form method="post" action="" class="woocommerce-currency-switcher-form" data-ver="1.3.4.2">
+                            <form method="post" action="" class="woocommerce-currency-switcher-form d-flex" data-ver="1.3.4.2">
                                 <input type="hidden" name="woocommerce-currency-switcher" value="USD" />
                                 <select name="woocommerce-currency-switcher" data-width="auto" data-flag-position="right" class="woocommerce-currency-switcher" onchange="woocs_redirect(this.value); void(0);">
                                     <option class="woocs_option_img_USD" value="USD" selected="selected" data-imagesrc="" data-icon="" data-description="change the rate and this description to the right values">USD, $</option>
                                     <option class="woocs_option_img_GBP" value="GBP" data-imagesrc="" data-icon="" data-description="">GBP, £</option>
                                 </select>
                                 <div class="woocs_display_none" style="display: none">WOOCS v.1.3.4.2</div>
-                            </form>
-                        </div>
-                    </section>
-                    <ul class="dici-widget-login-button-view d-flex">
+                                <ul class="dici-widget-login-button-view d-flex">
                         <li><a class="sign-up" href="https://dici.themes.zone/main/my-account/"><i class="fas fa-sign-in-alt me-1"></i>Sign In</a></li>
                         <li><a class="account" href="https://dici.themes.zone/main/my-account/"><i class="fas fa-user me-1"></i>My Account</a></li>
                     </ul>
+                            </form>
+                        </div>
+                    </section>
+                  
                 </aside>
             </div>
         </div>
@@ -85,11 +100,11 @@
 
   <!-- nav section2 -->
 <!-- nav section2 -->
+<div class="container">
 <nav class="navbar navbar-expand-lg navbar-light main_header_banner_section_2">
-    <div class="container">
-<div class="row w-100 align-items-center navbar_2_sm">
+<div class="row w-100 align-items-center justify-content-between navbar_2_sm">
 <!-- Left Section (hidden on sm and md, placed at the end to maintain layout) -->
-<div class="col-12 col-lg-4 d-none d-lg-flex align-items-center justify-content-start mb-2 mb-lg-0">
+<div class="col-12 col-lg-4 d-none d-lg-flex align-items-center justify-content-around  mb-2 mb-lg-0">
     <div class="navbar_location_title me-3">
         <div class="d-flex align-items-center header_icons">                  
             <div>
@@ -123,12 +138,24 @@
 </div>
 
 <!-- Right Section with Icons -->
+
+
 <div class="col-2 col-md-6 col-lg-4 d-flex align-items-center justify-content-center">
-    <input type="text" id="navbar-search" placeholder="Search" class="form-control me-2 d-none d-lg-block">
-    <a href="#" class="nav-link p-2 d-none d-md-block"><i class="fas fa-search text-dark"></i></a>
-    <a href="#" class="nav-link"><i class="fa-regular fa-heart text-dark fs-5 p-2"></i></a>
-    <a href="#" class="nav-link"><i class="fa-solid fa-bag-shopping text-dark"></i></a>
-</div>
+    <div class= "right_center_navbar d-flex">
+                <div class="me-2 d-none d-lg-block">
+                    <input type="text" id="navbar-search" placeholder="Search" class="form-control">
+                </div>
+                    <div class="p-2 d-none d-md-block">
+                        <a href="#" class="nav-link"><i class="fas fa-search text-dark icon-size"></i></a>
+                    </div>
+                    <div class="p-2">
+                        <a href="#" class="nav-link"><i class="far fa-heart text-dark icon-size"></i></a>
+                    </div>
+                    <div class="p-2">
+                        <a href="#" class="nav-link"><i class="fas fa-shopping-bag text-dark icon-size"></i></a>
+                    </div>
+                </div>
+            </div>
 </div>
 </div>
 </nav>

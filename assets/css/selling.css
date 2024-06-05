@@ -2,7 +2,14 @@
 .best_saleing_iteams {
     text-align: center;
   }
-  
+  .best_saleing_iteams h5{
+    font-family: "Poppins", Sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 5.5rem;
+  }
   .best_saleing_iteams_header h2 p {
     font-size: 22px;
     font-weight: 400;

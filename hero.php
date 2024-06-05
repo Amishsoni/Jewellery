@@ -77,13 +77,14 @@
         </div>
         <div class="col-lg-6 col-md-6 col-sm ">  
           <div class="right_banner">
+          <div class="right_img">
+            <img src="./assets/images/banner/ring_2.png" alt="">
+          </div>
           <div class="right_content">
             <h3>Happy Ever After</h3>
             <a href="">Click Here</a>
           </div>
-          <div class="right_img">
-            <img src="./assets/images/banner/inner_ring.png" alt="">
-          </div>
+        
           </div>
          
         </div>

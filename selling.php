@@ -1,8 +1,8 @@
 <section>
-  <div class="best_saleing_iteams mt-5">
+  <div class="best_saleing_iteams">
   <div>
-      <h2 class="decorated">
-        <p>OUR BEST SELLING </p>
+    <h5>OUR BEST SELLING </h5>
+    <h2 class="decorated">
         <img src="./assets/images/border/border.png" alt="border" width="120px">
       </h2>
     </div>

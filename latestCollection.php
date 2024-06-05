@@ -1,10 +1,10 @@
 <!-- section 3 "OUR LATEST COLLECTION" start -->
 <section >
 
-  <div class="main_latest_collection mt-5">
-    <div>
+  <div class="main_latest_collection">
+    <div class= "">
+      <h5>OUR LATEST COLLECTION</h5>
       <h2 class="decorated">
-        <p>OUR LATEST COLLECTION</p>
         <img src="./assets/images/border/border.png" alt="border" width="120px">
       </h2>
     </div>
@@ -28,7 +28,7 @@
           <p>Platinum</p>
           <h2 class="card_jewallary">14K Gold 9″ Diamond Ankle Bracelet</h2>
           <h6 class="card_jewallary_price">$1500</h6>
-          <a href="#" class="read_more">Read More</a>
+          <a href="#" class="read_more ">Read More</a>
         </div>
       </div>
 

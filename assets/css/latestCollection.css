@@ -3,11 +3,14 @@
   
   }
   
-  .main_latest_collection h2 p {
+  .main_latest_collection h5{
+    margin-top: 5.4rem;
+    margin-bottom: 0px;
     font-size: 22px;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 1px;
+    text-transform: uppercase;
     font-family: "Poppins", Sans-serif;
   }
   
@@ -30,11 +33,25 @@
     box-shadow: 0 ;
 
   }
+  .product {
+  
+  }
   
   .product:hover {
     box-shadow: 0 2px 2px rgba(0, 0, 0, .2);
 
+
     /* transform: translateY(-10px); */
+  }
+
+
+  
+  .read_more{
+  visibility: hidden!important;
+}
+
+  .product:hover .read_more{
+    visibility: visible !important;
   }
   
   .product .imgbox {
@@ -58,6 +75,10 @@
     letter-spacing: 1px;
     padding: 0.5rem 0;
   
+  }
+
+  .feature1{
+ 
   }
   
   .card_jewallary_price {
@@ -100,7 +121,9 @@
     top: 0;
     left: 0;
     opacity: 0;
-    transition: opacity 2s ease;
+    /* transition: opacity 1s ease; */
+    transition-duration: 1s;
+  
   }
   
   .imgbox:hover img {
@@ -116,6 +139,7 @@
   .read_more {
     display: block;
     margin-top: 10px;
+    font-family: 'Poppins';
   }
   
   .decorated:after {
@@ -131,7 +155,7 @@
   
   .decorated {
     position: relative;
-    margin-bottom: 2rem;
+    margin-bottom: 0px
   }
   
   .decorated p {
@@ -159,12 +183,13 @@
   .latest_collection_right_img  {
     width: 100%;
     height: 400px;
+
   }
   
   .latest_collection_left_img img,
   .latest_collection_right_img img {
     width: 100%;
-    height: 100%;
+    height: auto;
     object-fit: cover;
     transition: transform 2s;
   }
@@ -190,42 +215,76 @@
     text-align: left;
     top: 22%;
     width: 100%;
-    left: 54%;
+    left: 61%;
     transform: translateX(-50%);
   }
   .latest_collection_right_content a{
     display: inline-block;
-    padding: 10px 20px;
     color: black;
     border-bottom: 2px solid black;
     text-decoration: none;
     /* border-radius: 5px; */
     margin-top: 25px; 
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 0 4px;
+    border-width: 0 0 2px;
   }
   .latest_collection_right_content a:hover{
       color: grey;
       border-color: grey;
   }
-  .latest_collection_left_content span,
+  .latest_collection_left_content span{
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+    font-family: poppins;
+    color: #fff;
+  }
   .latest_collection_right_content span {
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 0.7px;
+    font-family: poppins;
+    color: #363636;
   }
   
-  .latest_collection_left_content h3,
+  .latest_collection_left_content h3{
+    font-family: "Mr Dafoe", cursive;
+    font-size: 55px;
+  
+  }
   .latest_collection_right_content h3 {
-    font-family: "Mr Dafoe", Sans-serif;
-    font-size: 38px;
+    font-family: butler;
+    text-wrap: wrap;
+    width: 40%;
+    color: #363636;
+    font-size: 45px;
+    line-height: 1.1em;
   }
   
   @media (max-width: 768px) {
     .latest_collection_left_content,
     .latest_collection_right_content {
-      top: 50%;
+      top: 40%;
       transform: translate(-50%, -50%);
+      text-wrap: wrap !important;
     }
-  
+    .latest_collection_right_content a {
+      display: inline-block;
+      /* padding: 10px 20px; */
+      color: black;
+      border-bottom: 2px solid black;
+      text-decoration: none;
+      /* border-radius: 5px; */
+      margin-top: 25px;
+  }
+    .latest_collection_left, .latest_collection_right {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: 230px;
+  }
     .latest_collection_left_content h3,
     .latest_collection_right_content h3 {
       font-size: 28px;
@@ -235,7 +294,12 @@
     .latest_collection_right_content span {
       font-size: 11px;
     }
+    .read_more{
+        display: none!important;
+    }
   }
+
+  
   
   @media (max-width: 576px) {
     .latest_collection_left_content,

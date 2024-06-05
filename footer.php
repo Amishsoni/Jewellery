@@ -13,13 +13,15 @@
                 <div class="row">
                     <div class="col-12 d-flex flex-column flex-md-row align-items-center justify-content-between">
                         <div class="mr-md-3 text-center text-md-left">
-                            <strong>JOIN OUR NEWSLETTER</strong>
-                            <p>Get 5% off discount every purchase!</p>
+                            <div>
+                                <strong>JOIN OUR NEWSLETTER</strong>
+                                <p>Get 5% off discount every purchase!</p>
+                            </div>
                         </div>
                         <div class="ml-md-3">
                             <form class="d-flex flex-column flex-md-row">
-                                <input type="text" class="form-control rounded-pill mr-md-2 mb-2 mb-md-0 ps-3 me-3" placeholder="Your Name">
-                                <input type="text" class="form-control rounded-pill mr-md-2 mb-2 mb-md-0 ps-3  me-3" placeholder="Your Email Address">
+                                <input type="text" class="form-control rounded-pill mr-md-2 mb-2 mb-md-0 ps-3 me-3" placeholder="Your name">
+                                <input type="text" class="form-control rounded-pill mr-md-2 mb-2 mb-md-0 ps-3  me-3" placeholder="Your email address">
                                 <input type="submit" class="btn btn-light rounded-pill bg-dark text-light mb-2 mb-md-0 ps-4 pe-4" value="SIGN UP">
                             </form>
                         </div>

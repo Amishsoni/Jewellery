@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 a {
 text-decoration: none !important;
@@ -14,6 +14,8 @@ text-decoration: none !important;
 /* navbar 1  start */
 .top-header-container {
   background-color: #f3d400;
+  width: 100% !important;
+  height: auto;
 }
 .top-header-container a {
   color: rgba(0, 0, 0, 0.774);
@@ -30,8 +32,14 @@ text-decoration: none !important;
   margin: 0;
   display: flex;
 }
-.menu li, .dici-widget-login-button-view li {
+.icon-size {
+  font-size: 1.4rem; /* Set your desired font size here */
+}
+.menu li {
   margin-right: 15px;
+}
+.dici-widget-login-button-view li{
+  margin-left: 8px;
 }
 .dici-widget-login-button-view li a{
   text-transform: uppercase;
@@ -58,7 +66,7 @@ text-decoration: none !important;
   background: none;
   border: none;
   color: rgba(0, 0, 0, 0.774);
-  margin-right: 8px;
+  margin-left: 8px;
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.7px;
@@ -67,6 +75,7 @@ text-decoration: none !important;
   cursor: pointer;
 }
 .top-header-inner{
+  padding: 0.8rem 0 !important;
   justify-content: space-between;
 }
 @media (max-width: 767.98px) {
@@ -95,17 +104,22 @@ text-decoration: none !important;
 
 /* header banner start */
 .header_logo img {
-  width: 230px;
+  width: 250px;
   height: auto;
-  padding: 13px 0px;
+  padding: 25px 10px;
 }
-
+.right_center_navbar{
+     padding-left: 101px;
+}
+.main_header_banner_section_2{
+  margin-left: -1rem;
+}
  .nav-item .nav-link {
   white-space: nowrap;
   color: black !important;
   text-align: center;
   display: inline-block;
-  padding: 0.91em 0 0.767em;
+  padding: 0;
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.7px;
@@ -199,7 +213,7 @@ text-decoration: none !important;
 
 
 .navbar_3 .nav-link {
-  /* padding: 10px 0px; */
+  padding: 0px 4px !important;
   white-space: nowrap;
   margin: 0px;
   line-height: 49px;
@@ -316,7 +330,7 @@ ul {
 }
 
 .nav-item {
-  margin: 0 10px 0 -7px;
+  /* margin: 0 10px 0 -7px; */
 }
 
 .nav-link {
@@ -390,6 +404,14 @@ ul {
 .header_logo img {
   width: 160px;
   height: auto;
+}
+.right_center_navbar {
+  padding-left: 15px;
+}
+.header_logo img {
+  width: 164px;
+  height: auto;
+  margin-left: 20PX;
 }
 
 }
