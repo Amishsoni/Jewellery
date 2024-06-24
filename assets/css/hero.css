@@ -7,6 +7,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 .main_hero_content {
     position: relative;
     width: 100%;
@@ -166,7 +167,9 @@
       color: #000; 
   }
  
-  
+  h3{
+    line-height: 1.0 !important;
+  }
  
   #container-fluid {
     background-color: #444;
@@ -179,10 +182,13 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding-top: 30px;
+    margin-top: 45px;
+    margin-bottom: 27px !important;
     gap: 30px;
   }
-  
+  .said_yes{
+     width: 20PX;
+  }
   .flex-item {
     flex: 1;
     min-width: 200px;
@@ -215,7 +221,7 @@
   .feature{
     width: 98%;
     margin: auto;
-    margin-top: 45px;
+    /* margin-top: 45px; */
   }
   
   .feature1{
@@ -223,7 +229,8 @@
     margin: auto;
     margin-top:45px ;
   }
-  
+
+
   .left_banner {
     position: relative;
     width: 100%;
@@ -252,8 +259,8 @@
   
   .left_content {
     position: absolute;
-    top: 11%;
-    left: 4%;
+    top: 26px;
+    left: 27px;
     color: black;
     text-align: center;
     padding: 20px;
@@ -272,10 +279,12 @@
     display: inline-block;
     padding: 10px 20px;
     color: #363636;
+    font-size: 15px !important;
+    margin-left: -42px !important;
     border-bottom: 2px solid #363636;
     text-decoration: none;
     /* border-radius: 5px; */
-    margin-top: 40px;
+    margin-top: 54px;
     font-weight: 500;
     padding: 0 0 2px;
     transition: color .4s ease-in;
@@ -294,7 +303,7 @@
     overflow: hidden;
   }
   
-  .right_img {
+  .right_img  {
     height: auto;
     width: 100%;
     object-fit: cover;
@@ -302,24 +311,29 @@
     top: -12%;
     transition-duration: 3s;
   }
+
+  .right_img img{
+    height: 320px !important;
+  }
   
   .right_banner img {
     width: 100%;
     height: auto;
-    transform: scale3d(1.07, 1.07, 1);
+    transition: transform .35s ease;
+    transform: scale3d(1, 1, 1);
     position: absolute;
     top: 24px;
   }
   
   .right_banner img:hover {
-    transform: scale3d(1, 1, 1);
+    transform: scale3d(1.07, 1.07, 1);
     transition: transform .35s ease;
   }
   
   
   .right_content {
       position: absolute;
-      top: 60%;
+      top: 69%;
       left: 50%;
       height: 55%;
       transform: translate(-50%, -50%);
@@ -338,13 +352,14 @@
   }
   
   .right_content a {
-    font-family: buttler;
+    font-family: poppins;
     display: inline-block;
-    padding: 10px;
+    padding-bottom: 2px;
     color: black;
     border-bottom: 2px solid black;
     text-decoration: none;
-    margin-top: 0px;
+    font-weight: 500;
+    margin-top: 15px;
   }
   /* banner_bottom_End */
   
@@ -367,11 +382,13 @@
   }
   
   .flex-item i {
-    font-size: 2rem;
+    font-size: 40px;
     margin-bottom: 5px;
     color: #f3d400; /* Set icon color */
   }
-  
+  .envelopebox{
+  margin-top: -10px !important;
+  }
   .flex-item-content {
     display: flex;
     flex-direction: column;
@@ -419,6 +436,9 @@
       background-color: #f7f7f7;
       overflow: hidden;
   }
+  .right_img img {
+    height: 170px !important;
+ }
   .right_content{
     position: absolute;
     top: 70px !important;

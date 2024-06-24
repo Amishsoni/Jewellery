@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .calendar-title {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .calendar-table th, .calendar-table td {
+            text-align: center;
+            vertical-align: middle;
+            height: 80px;
+        }
+        .calendar-table th {
+            background-color: #f8f9fa;
+        }
+        .calendar-table .today {
+            background-color: #ffc107;
+            color: white;
+        }
+        .calendar-nav a {
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<section id="calendar-1" class="widget widget_calendar container my-5">
+    <div class="row">
+        <div class="col-12">
+            <h3 class="calendar-title">Calendar</h3>
+            <div id="calendar_wrap" class="calendar_wrap">
+                <table id="wp-calendar" class="wp-calendar-table table table-bordered calendar-table">
+                    <caption class="text-center">June 2024</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col" title="Monday">M</th>
+                            <th scope="col" title="Tuesday">T</th>
+                            <th scope="col" title="Wednesday">W</th>
+                            <th scope="col" title="Thursday">T</th>
+                            <th scope="col" title="Friday">F</th>
+                            <th scope="col" title="Saturday">S</th>
+                            <th scope="col" title="Sunday">S</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="5" class="pad">&nbsp;</td>
+                            <td>1</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>7</td>
+                            <td>8</td>
+                            <td>9</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>12</td>
+                            <td>13</td>
+                            <td>14</td>
+                            <td class="today">15</td>
+                            <td>16</td>
+                        </tr>
+                        <tr>
+                            <td>17</td>
+                            <td>18</td>
+                            <td>19</td>
+                            <td>20</td>
+                            <td>21</td>
+                            <td>22</td>
+                            <td>23</td>
+                        </tr>
+                        <tr>
+                            <td>24</td>
+                            <td>25</td>
+                            <td>26</td>
+                            <td>27</td>
+                            <td>28</td>
+                            <td>29</td>
+                            <td>30</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <nav aria-label="Previous and next months" class="calendar-nav d-flex justify-content-between">
+                    <span class="wp-calendar-nav-prev">
+                        <a href="https://dici.themes.zone/main/2018/08/">&laquo; Aug</a>
+                    </span>
+                    <span class="wp-calendar-nav-next">
+                        <a href="#">Next &raquo;</a>
+                    </span>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

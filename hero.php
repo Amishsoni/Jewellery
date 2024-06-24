@@ -25,7 +25,7 @@
 
 <!-- hero banner bottom start -->
 <section>
-  <div class="container">
+  <div class="container-fluid">
     <div class="flex-container">
       <div class="flex-item">
         <i class="fas fa-phone-volume"></i>
@@ -42,7 +42,7 @@
         </div>
       </div>
       <div class="flex-item">
-        <i class="fa-regular fa-envelope"></i>
+        <i class="fa-regular fa-envelope envelopebox"></i>
         <div class="flex-item-content">
           <h4>Buyer Discount</h4>
           <p>support@domain.com</p>
@@ -69,7 +69,7 @@
             <img src="./assets/images/banner/banner_left.png" alt="">
           </div>
           <div class="left_content">
-            <h3>She said <br>"YES"</h3>
+            <h3>She said</h3> <h3 class="said_yes">"YES"</h3>
             <a href="">Shop Now</a>
           </div>
           </div>

@@ -1,6 +1,9 @@
 <!-- section 4 "OUR JOURNAL" start -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 <section class="journal-div">
   
+
   <div class="our_journal_blogs">
   <div>
     <h5>OUR Journal</h5>
@@ -15,7 +18,7 @@
       </div>
       <button
         class="carousel-control-prev " type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon " aria-hidden="true"></i></span>
+        <span class="carousel-control-prev-icon text-dark" aria-hidden="true"></i></span>
         <span class="visually-hidden">Previous</span>
       </button>
       <button
@@ -31,52 +34,53 @@
 <!-- section 4 "OUR JOURNAL" End -->
 
 <!-- section 5 "Flex Images " start -->
-<div class="container mb-5 mt-5">
+<div class="container mb-5 mt-4">
     <div class="row justify-content-between align-items-center">
 
-      <div class="col-12 col-sm-12 col-md-4 col-lg-1 ">
+      <div class="col-12 col-sm-12 col-md-1 col-lg-1 ">
         <div class="logos-div">
-        <img src="assets/images/black&white/flex1.png" alt="Image 1">
+        <img src="./assets/images/black&white/flex1.avif" alt="Image 1">
         </div>
       </div>
-      <div class="col-12 col-sm-12 col-md-4 col-lg-1 ">
+      <div class="col-12 col-sm-12 col-md-1 col-lg-1 ">
         <div class="logos-div">
-        <img src="assets/images/black&white/flex2.png" alt="Image 2">
+        <img src="./assets/images/black&white/flex2.avif" alt="Image 2">
         </div>
       </div>
-      <div class="col-12 col-sm-12 col-md-4 col-lg-1 ">
+      <div class="col-12 col-sm-12 col-md-1 col-lg-1 ">
         <div class="logos-div">
-        <img src="assets/images/black&white/flex3.png" alt="Image 3">
+        <img src="./assets/images/black&white/flex3.avif" alt="Image 3">
         </div>
       </div>
-      <div class="col-12 col-sm-12 col-md-4 col-lg-1 ">
+      <div class="col-12 col-sm-12 col-md-1 col-lg-1 ">
         <div class="logos-div">
-        <img src="assets/images/black&white/flex4.png" alt="Image 4">
+        <img src="./assets/images/black&white/flex4.avif" alt="Image 4">
         </div>
       </div>
-      <div class="col-12 col-sm-12 col-md-4 col-lg-1 ">
+      <div class="col-12 col-sm-12 col-md-1 col-lg-1 ">
         <div class="logos-div">
-        <img src="assets/images/black&white/flex5.png"  alt="Image 5">
+        <img src="./assets/images/black&white/flex5.avif"  alt="Image 5">
         </div>
       </div>
-      <div class="col-12 col-sm-12 col-md-4 col-lg-1 ">
+      <div class="col-12 col-sm-12 col-md-1 col-lg-1 ">
         <div class="logos-div">
-        <img src="assets/images/black&white/flex6.png" alt="Image 6">
+        <img src="./assets/images/black&white/flex6.avif" alt="Image 6">
         </div>
       </div>
-      <div class="col-12 col-sm-12 col-md-4 col-lg-1 ">
+      <div class="col-12 col-sm-12 col-md-1 col-lg-1 ">
         <div class="logos-div">
-        <img src="assets/images/black&white/flex7.png" alt="Image 7">
+        <img src="./assets/images/black&white/flex7.avif" alt="Image 7">
         </div>
       </div>
-      <div class="col-12 col-sm-12 col-md-4 col-lg-1 ">
+      <div class="col-12 col-sm-12 col-md-1 col-lg-1 ">
         <div class="logos-div">
-        <img src="assets/images/black&white/flex8.png" alt="Image 8">
+        <img src="./assets/images/black&white/flex8.avif" alt="Image 8">
         </div>
       </div>
-      <div class="col-12 col-sm-12 col-md-4 col-lg-1 ">
+      <div class="col-12 col-sm-12 col-md-1 col-lg-1 ">
         <div class="logos-div">
-        <img src="assets/images/black&white/flex9.png" alt="Image 9">
+        <img src="./assets/images/black&white/flex9.avif" alt="Image 9">
+
         </div>
       </div>
     </div>

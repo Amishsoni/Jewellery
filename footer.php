@@ -13,16 +13,16 @@
                 <div class="row">
                     <div class="col-12 d-flex flex-column flex-md-row align-items-center justify-content-between">
                         <div class="mr-md-3 text-center text-md-left">
-                            <div>
+                            <div class= "footer_left">
                                 <strong>JOIN OUR NEWSLETTER</strong>
                                 <p>Get 5% off discount every purchase!</p>
                             </div>
                         </div>
                         <div class="ml-md-3">
                             <form class="d-flex flex-column flex-md-row">
-                                <input type="text" class="form-control rounded-pill mr-md-2 mb-2 mb-md-0 ps-3 me-3" placeholder="Your name">
-                                <input type="text" class="form-control rounded-pill mr-md-2 mb-2 mb-md-0 ps-3  me-3" placeholder="Your email address">
-                                <input type="submit" class="btn btn-light rounded-pill bg-dark text-light mb-2 mb-md-0 ps-4 pe-4" value="SIGN UP">
+                                <input type="text" class="form-control rounded-pill mr-md-2 mb-2 mb-md-0 ps-3 me-3" placeholder="Your name" style= "font-family:  popinns, sans-serif;">
+                                <input type="text" class="form-control rounded-pill mr-md-2 mb-2 mb-md-0 ps-3  me-3" placeholder="Your email address" style= "font-family:  popinns, sans-serif;">
+                                <input type="submit" class="btn btn-light rounded-pill  mb-2 mb-md-0 ps-4 pe-4 bg-dark text-light" value="SIGN UP">
                             </form>
                         </div>
                     </div>
@@ -90,7 +90,7 @@
                     <div class="col-md-3 mb-4 mb-md-0">
                         <h5>Contact Us</h5>
                         <ul>
-                            <li><a href="#"><i class="fas fa-map-marker-alt" style= "color: #f3d400;"></i> 1 Wintergreen Dr. Huntley IL 60142, USA</a></li>
+                            <li><a href="#"><i class="fas fa-map-marker-alt" style= "color: #f3d400; "></i> 1 Wintergreen Dr. Huntley <br> IL 60142, USA</a></li>
                             <li><a href="mailto:info@sky.com"><i class="far fa-envelope" style= "color: #f3d400;"></i> info@sky.com</a></li>
                             <li><a href="#"><i class="fas fa-phone-volume" style= "color: #f3d400;"></i> 0123-456-789</a></li>
                         </ul>

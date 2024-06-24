@@ -6,6 +6,14 @@
     margin-right: 14rem;
   
   }
+  .footer_button{
+    font-family: popinns, sans-serif;
+    padding: 1em 2.533em .933em;
+    color: white;
+    outline: none !important;
+}
+
+
   .left_footer_content p{
       color: white;
       color: #fff;
@@ -50,7 +58,15 @@
 #social-menu li a i:hover{
     color: #f3d400;
 }
-
+.footer_left {
+     color: #fff;
+}
+.footer_left strong{
+    text-align: left;
+}
+.footer_left strong{
+    margin-left: -1px;
+}
   footer {
     background-color: #f8f9fa;
     /* padding: 20px 0; */
@@ -62,6 +78,7 @@
 
 .footer-section h5 {
     margin-bottom: 20px;
+    font-family: 'Poppins';
 }
 
 #social-menu li a i{
@@ -81,11 +98,13 @@
 }
 
 .footer-section ul li a {
-    color: #6c757d;
+    color: #262626;
     text-decoration: none;
     padding-left: 0;
     font-weight: 400;
-    font-size: 13.005px;
+    font-size: 13px;
+    font-family: 'Poppins';
+    margin: 10px 0;
 }
 
 .footer-section ul li a:hover{
@@ -93,18 +112,26 @@
 }
 
 .footer-social a {
-    color: #6c757d;
-    margin-right: 12px;
+    color: #000;
+    margin-right: 18px;
     font-size: 18px;
     text-decoration: none;
     
+}
+.elementor-image{
+    width: 100%;
+    height: 100%;
+}
+.elementor-image img{
+    width: 200px;
+    height: auto;
 }
 
 .footer-social a:hover {
     color: #f3d400 !important;
 }
 .menu-item a{
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 13px;
     font-weight: 400;
     line-height: 1.5;
@@ -160,12 +187,15 @@ border: none !important;
 }
 .site-footer-inner .site-info a{
     text-decoration : none;
-    font-family: Poppins;
     font-size: 13px;
     font-weight: 400;
     line-height: 1.5;
     text-align: left;
     color: #434343;
+    font-family: 'Poppins';
+}
+.site-footer-inner .site-info b{
+    font-family: 'Poppins';
 }
 
 .site-footer-inner .menu-payment-icons-container,
