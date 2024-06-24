@@ -1,12 +1,4 @@
 
-
-    <style>
-
-    </style>
-</head>
-
-<body>
-
     <footer>
         <section class="newsletter-section">
             <div class="container">

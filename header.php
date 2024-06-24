@@ -15,10 +15,12 @@
     <link rel="stylesheet" href="./assets/css/footer.css">
     <link rel="stylesheet" href="./assets/css/newCollection.css">
     <link rel="stylesheet" href="./assets/css/blog.css">
+    <link rel="stylesheet" href="./assets/css/gallery.css">
+    <link rel="stylesheet" href="./assets/css/about.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
 
 
     <!-- google icons link -->
-    <link rel="stylesheet" href="path/to/dici-icons.css">
     <!-- font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -219,53 +221,54 @@
                     <li class="nav-item dropdown arrow-name" style="display:flex">
 
                         <a class="nav-link shop-dropdown" href="#">Shop <i class="fa-solid fa-angle-down"></i></a>
-                        <ul class="dropdown-menu">
+                        <ul class="dropdown-menu ">
                             <li class="nav-item dropdown">
-                                <div class="d-flex">
+                                <div class="d-flex ddd">
                                     <div class="dropdown-column">
-                                        <ul>
+                                        <ul class="me-4">
                                             <li class="dropdown-header">BRACELETS</li>
                                             <li class="dropdown-item"><a href="#">Bands</a></li>
                                             <li class="dropdown-item"><a href="#">Emerald Spring</a></li>
                                             <li class="dropdown-item"><a href="#">Men’s Bands</a></li>
                                             <li class="dropdown-item"><a href="#">Ruthenium</a></li>
                                             <li class="dropdown-item"><a href="#">Wedding Band Sets</a></li>
-                                            <li class="dropdown-header">BY METAL</li>
+                                            <li class="dropdown-header mt-3">BY METAL</li>
                                             <li class="dropdown-item"><a href="#">Gold</a></li>
                                             <li class="dropdown-item"><a href="#">Platinum</a></li>
                                             <li class="dropdown-item"><a href="#">Silver</a></li>
                                         </ul>
                                     </div>
                                     <div class="dropdown-column">
-                                        <ul>
+                                        <ul class="me-4">
                                             <li class="dropdown-header">EARRINGS</li>
                                             <li class="dropdown-item"><a href="#">All Stones</a></li>
                                             <li class="dropdown-item"><a href="#">Aquamarines</a></li>
                                             <li class="dropdown-item"><a href="#">Diamonds</a></li>
                                             <li class="dropdown-item"><a href="#">Sterling Silver</a></li>
                                             <li class="dropdown-item"><a href="#">White Gold</a></li>
-                                            <li class="dropdown-header">BY METAL</li>
+                                            <li class="dropdown-header mt-3">BY METAL</li>
                                             <li class="dropdown-item"><a href="#">Gold</a></li>
                                             <li class="dropdown-item"><a href="#">Platinum</a></li>
                                             <li class="dropdown-item"><a href="#">Silver</a></li>
                                         </ul>
                                     </div>
                                     <div class="dropdown-column">
-                                        <ul>
+                                        <ul class="me-4">
                                             <li class="dropdown-header">PENDANTS</li>
                                             <li class="dropdown-item"><a href="#">Amethyst</a></li>
                                             <li class="dropdown-item"><a href="#">Colored Gemstones</a></li>
                                             <li class="dropdown-item"><a href="#">No Gemstone</a></li>
                                             <li class="dropdown-item"><a href="#">White Gold</a></li>
-                                            <li class="dropdown-header">BY METAL</li>
+                                            <li class="dropdown-item"><a href="#">White Gold</a></li>
+                                            <li class="dropdown-header mt-3">BY METAL</li>
                                             <li class="dropdown-item"><a href="#">Gold</a></li>
                                             <li class="dropdown-item"><a href="#">Platinum</a></li>
                                             <li class="dropdown-item"><a href="#">Silver</a></li>
                                         </ul>
                                     </div>
-                                    <div class="dropdown-column dropdown-image">
-                                        <!-- Images will be shown here on hover -->
-                                        <img width="380" height="380" id="dropdownImage"
+                                    <div class="dropdown-column dropdown-image ">
+
+                                        <img width="460" height="290" id="dropdownImage" class="ms-4"
                                             src="./assets/images/dropdown_image/drop1.avif" alt="Dropdown Image" />
                                     </div>
                                 </div>
@@ -277,19 +280,23 @@
                     <li class="nav-item"><a class="nav-link" href="#">Women</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Men</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Watches</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" href="#">Pages<i class="fa-solid fa-angle-down"></i></a>
-                        <ul class="dropdown-menu">
-                            <li class="dropdown-item"><a href="#">About</a></li>
-                            <li class="dropdown-item"><a href="#">Contact Us</a></li>
-                            <li class="dropdown-item"><a href="#">Blog</a></li>
-                            <li class="dropdown-item"><a href="#">Gallery</a></li>
-                        </ul>
-                    </li>
+ <li class="nav-item dropdown">
+            <a class="nav-link" href="#">Pages<i class="fa-solid fa-angle-down"></i></a>
+            <ul class="dropdown-menu1">
+                <li class="dropdown-item1"><a href="#">Variable Products</a></li>
+                <li class="dropdown-item1"><a href="#">About Us</a></li>
+                <li class="dropdown-item1"><a href="#">Gallery</a></li>
+                <li class="dropdown-item1"><a href="#">Wishlist</a></li>
+                <li class="dropdown-item1"><a href="#">Frequently Asked Questions</a></li>
+                <li class="dropdown-item1"><a href="#">Contact Us</a></li>
+                <li class="dropdown-item1"><a href="#">My account</a></li>
+                <li class="dropdown-item1"><a href="#">Not Found 404</a></li>
+            </ul>
+        </li>
                     <li class="nav-item"><a class="nav-link" href="blog.php">Blog </a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.php">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
                 </ul>
             </div>
     </div>

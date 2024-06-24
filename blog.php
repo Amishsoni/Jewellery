@@ -22,7 +22,7 @@
 
 <div class="container-fluid">
     <div id="content" class="site-content">
-        <div class="d-flex align-items-center justify-content-between">
+        <div class="d-flex  justify-content-between">
             <div class="row">
                 <div class="col-lg-12 mt-5">
                     <nav class="bg-dark navbar-dark"></nav>
@@ -95,7 +95,7 @@
                                 </div>
                             </div>
                             <div class="row">
-                            <div class="col-lg-6 mb-4">
+                                <div class="col-lg-6 mb-4">
                                     <div class="card card_blog" style="width: 25rem;">
                                         <div class="card-img-top-container">
                                             <img src="./assets/images/card/blog1.png" alt="" class="card-img-top">
@@ -161,7 +161,7 @@
                                 </div>
                             </div>
                             <div class="row">
-                            <div class="col-lg-6 mb-4">
+                                <div class="col-lg-6 mb-4">
                                     <div class="card card_blog" style="width: 25rem;">
                                         <div class="card-img-top-container">
                                             <img src="./assets/images/card/blog4.png" alt="" class="card-img-top">
@@ -232,165 +232,148 @@
                 </div>
             </div>
 
-            <div class="col-lg-3">
-              <section id="search-2" class="widget widget_search">
-  <form role="search" method="get" class="search-form" action="https://dici.themes.zone/main/">
-    <label class="search_input_width">
-      <span class="screen-reader-text">Search for:</span>
-      <input type="search" class="search-field" placeholder="Type to search" value="" name="s">
-    </label>
-    <button type="submit" class="search-submit">
-      <span class="screen-reader-text">Search</span>
-      <i class="fas fa-search"></i>
-    </button>
-  </form>
-</section>
-                    <section id="calendar-1" class="widget widget_calendar">
-                        <h3 class="widget-title"><span>Calendar</span></h3>
-                        <div id="calendar_wrap" class="calendar_wrap">
-                            <table id="wp-calendar" class="wp-calendar-table">
-                                <caption>June 2024</caption>
-                                <thead>
-                                    <tr>
-                                        <th scope="col" title="Monday">M</th>
-                                        <th scope="col" title="Tuesday">T</th>
-                                        <th scope="col" title="Wednesday">W</th>
-                                        <th scope="col" title="Thursday">T</th>
-                                        <th scope="col" title="Friday">F</th>
-                                        <th scope="col" title="Saturday">S</th>
-                                        <th scope="col" title="Sunday">S</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td colspan="5" class="pad">&nbsp;</td>
-                                        <td>1</td>
-                                        <td>2</td>
-                                    </tr>
-                                    <tr>
-                                        <td>3</td>
-                                        <td>4</td>
-                                        <td>5</td>
-                                        <td>6</td>
-                                        <td>7</td>
-                                        <td>8</td>
-                                        <td>9</td>
-                                    </tr>
-                                    <tr>
-                                        <td>10</td>
-                                        <td>11</td>
-                                        <td>12</td>
-                                        <td>13</td>
-                                        <td>14</td>
-                                        <td id="today">15</td>
-                                        <td>16</td>
-                                    </tr>
-                                    <tr>
-                                        <td>17</td>
-                                        <td>18</td>
-                                        <td>19</td>
-                                        <td>20</td>
-                                        <td>21</td>
-                                        <td>22</td>
-                                        <td>23</td>
-                                    </tr>
-                                    <tr>
-                                        <td>24</td>
-                                        <td>25</td>
-                                        <td>26</td>
-                                        <td>27</td>
-                                        <td>28</td>
-                                        <td>29</td>
-                                        <td>30</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            <nav aria-label="Previous and next months" class="wp-calendar-nav">
-                                <span class="wp-calendar-nav-prev"><a href="https://dici.themes.zone/main/2018/08/">«
-                                        Aug</a></span>
-                                <span class="pad">&nbsp;</span>
-                                <span class="wp-calendar-nav-next">&nbsp;</span>
-                            </nav>
-                        </div>
-                    </section>
+            <div class="col-lg-3 mt-5">
+                <section id="search-2" class="widget widget_search mb-3">
+                    <form role="search" method="get" class="search-form" action="https://dici.themes.zone/main/">
+                        <label class="search_input_width">
+                            <span class="screen-reader-text">Search for:</span>
+                            <input type="search" class="search-field" placeholder="Type to search" value="" name="s">
+                        </label>
+                        <button type="submit" class="search-submit">
+                            <span class="screen-reader-text">Search</span>
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                </section>
+                <section id="calendar-1" class="widget widget_calendar">
+                    <h3 class="widget-title"><span>Calendar</span></h3>
+                    <div id="calendar_wrap" class="calendar_wrap">
+                        <table id="wp-calendar" class="wp-calendar-table">
+                            <caption>June 2024</caption>
+                            <thead>
+                                <tr>
+                                    <th scope="col" title="Monday">M</th>
+                                    <th scope="col" title="Tuesday">T</th>
+                                    <th scope="col" title="Wednesday">W</th>
+                                    <th scope="col" title="Thursday">T</th>
+                                    <th scope="col" title="Friday">F</th>
+                                    <th scope="col" title="Saturday">S</th>
+                                    <th scope="col" title="Sunday">S</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td colspan="5" class="pad">&nbsp;</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>4</td>
+                                    <td>5</td>
+                                    <td>6</td>
+                                    <td>7</td>
+                                    <td>8</td>
+                                    <td>9</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>11</td>
+                                    <td>12</td>
+                                    <td>13</td>
+                                    <td>14</td>
+                                    <td id="today">15</td>
+                                    <td>16</td>
+                                </tr>
+                                <tr>
+                                    <td>17</td>
+                                    <td>18</td>
+                                    <td>19</td>
+                                    <td>20</td>
+                                    <td>21</td>
+                                    <td>22</td>
+                                    <td>23</td>
+                                </tr>
+                                <tr>
+                                    <td>24</td>
+                                    <td>25</td>
+                                    <td>26</td>
+                                    <td>27</td>
+                                    <td>28</td>
+                                    <td>29</td>
+                                    <td>30</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <nav aria-label="Previous and next months" class="wp-calendar-nav">
+                            <span class="wp-calendar-nav-prev">
+                                <a>« Aug</a>
+                            </span>
+                            <span class="pad">&nbsp;</span>
+                            <span class="wp-calendar-nav-next">&nbsp;</span>
+                        </nav>
+                    </div>
+                </section>
 
-                    
-                    <section id="tag_cloud-1" class="widget widget_tag_cloud">
-                        <h3 class="widget-title"><span>Tags</span></h3>
-                        <div class="tagcloud"><a href="https://dici.themes.zone/main/tag/beuaty/"
-                                class="tag-cloud-link tag-link-88 tag-link-position-1" style="font-size: 8pt;"
-                                aria-label="beuaty (1 item)">beuaty</a>
-                            <a href="https://dici.themes.zone/main/tag/beuty/"
-                                class="tag-cloud-link tag-link-89 tag-link-position-2" style="font-size: 8pt;"
-                                aria-label="beuty (1 item)">beuty</a>
-                            <a href="https://dici.themes.zone/main/tag/content-2/"
-                                class="tag-cloud-link tag-link-98 tag-link-position-3" style="font-size: 8pt;"
-                                aria-label="content (1 item)">content</a>
-                            <a href="https://dici.themes.zone/main/tag/css/"
-                                class="tag-cloud-link tag-link-100 tag-link-position-4" style="font-size: 8pt;"
-                                aria-label="css (1 item)">css</a>
-                            <a href="https://dici.themes.zone/main/tag/diamond/"
-                                class="tag-cloud-link tag-link-102 tag-link-position-5" style="font-size: 8pt;"
-                                aria-label="diamond (1 item)">diamond</a>
-                            <a href="https://dici.themes.zone/main/tag/formatting-2/"
-                                class="tag-cloud-link tag-link-116 tag-link-position-6" style="font-size: 8pt;"
-                                aria-label="formatting (1 item)">formatting</a>
-                            <a href="https://dici.themes.zone/main/tag/freedom/"
-                                class="tag-cloud-link tag-link-117 tag-link-position-7" style="font-size: 8pt;"
-                                aria-label="freedom (1 item)">freedom</a>
-                            <a href="https://dici.themes.zone/main/tag/gold/"
-                                class="tag-cloud-link tag-link-122 tag-link-position-8" style="font-size: 8pt;"
-                                aria-label="gold (1 item)">gold</a>
-                            <a href="https://dici.themes.zone/main/tag/html/"
-                                class="tag-cloud-link tag-link-127 tag-link-position-9" style="font-size: 8pt;"
-                                aria-label="html (1 item)">html</a>
-                            <a href="https://dici.themes.zone/main/tag/jewellry/"
-                                class="tag-cloud-link tag-link-132 tag-link-position-10" style="font-size: 8pt;"
-                                aria-label="jewellry (1 item)">jewellry</a>
-                            <a href="https://dici.themes.zone/main/tag/jewelry/"
-                                class="tag-cloud-link tag-link-133 tag-link-position-11" style="font-size: 8pt;"
-                                aria-label="jewelry (1 item)">jewelry</a>
-                            <a href="https://dici.themes.zone/main/tag/love/"
-                                class="tag-cloud-link tag-link-139 tag-link-position-12" style="font-size: 22pt;"
-                                aria-label="Love (2 items)">Love</a>
-                            <a href="https://dici.themes.zone/main/tag/markup-2/"
-                                class="tag-cloud-link tag-link-140 tag-link-position-13" style="font-size: 8pt;"
-                                aria-label="markup (1 item)">markup</a>
-                            <a href="https://dici.themes.zone/main/tag/model/"
-                                class="tag-cloud-link tag-link-143 tag-link-position-14" style="font-size: 8pt;"
-                                aria-label="model (1 item)">model</a>
-                            <a href="https://dici.themes.zone/main/tag/pearls/"
-                                class="tag-cloud-link tag-link-154 tag-link-position-15" style="font-size: 8pt;"
-                                aria-label="pearls (1 item)">pearls</a>
-                            <a href="https://dici.themes.zone/main/tag/rings/"
-                                class="tag-cloud-link tag-link-172 tag-link-position-16" style="font-size: 8pt;"
-                                aria-label="rings (1 item)">rings</a>
-                            <a href="https://dici.themes.zone/main/tag/romantisch/"
-                                class="tag-cloud-link tag-link-173 tag-link-position-17" style="font-size: 8pt;"
-                                aria-label="romantisch (1 item)">romantisch</a>
-                            <a href="https://dici.themes.zone/main/tag/set/"
-                                class="tag-cloud-link tag-link-174 tag-link-position-18" style="font-size: 8pt;"
-                                aria-label="set (1 item)">set</a>
-                            <a href="https://dici.themes.zone/main/tag/silver/"
-                                class="tag-cloud-link tag-link-176 tag-link-position-19" style="font-size: 22pt;"
-                                aria-label="silver (2 items)">silver</a>
-                            <a href="https://dici.themes.zone/main/tag/sterling/"
-                                class="tag-cloud-link tag-link-180 tag-link-position-20" style="font-size: 8pt;"
-                                aria-label="sterling (1 item)">sterling</a>
-                            <a href="https://dici.themes.zone/main/tag/wedding/"
-                                class="tag-cloud-link tag-link-205 tag-link-position-21" style="font-size: 8pt;"
-                                aria-label="wedding (1 item)">wedding</a>
-                        </div>
-                    </section>
-                    <section id="archives-5" class="widget widget_archive">
-                        <h3 class="widget-title"><span>Archives</span></h3>
-                        <ul>
-                            <li><a href="https://dici.themes.zone/main/2018/08/">August 2018</a></li>
-                            <li><a href="https://dici.themes.zone/main/2018/05/">May 2018</a></li>
-                            <li><a href="https://dici.themes.zone/main/2013/01/">January 2013</a></li>
-                        </ul>
+                <hr style="color:grey; margin-top: 3rem;">
+                <section id="tag_cloud-1" class="widget widget_tag_cloud">
+                    <h3 class="widget-title"><span>Tags</span></h3>
+                    <div class="tagcloud"><a href="https://dici.themes.zone/main/tag/beuaty/"
+                            class="tag-cloud-link tag-link-88 tag-link-position-1" style="font-size: 8pt;"
+                            aria-label="beuaty (1 item)">beuaty</a>
+                        <a class="tag-cloud-link tag-link-89 tag-link-position-2" style="font-size: 8pt;"
+                            aria-label="beuty (1 item)">beuty</a>
+                        <a class="tag-cloud-link tag-link-98 tag-link-position-3" style="font-size: 8pt;"
+                            aria-label="content (1 item)">content</a>
+                        <a class="tag-cloud-link tag-link-100 tag-link-position-4" style="font-size: 8pt;"
+                            aria-label="css (1 item)">css</a>
+                        <a class="tag-cloud-link tag-link-102 tag-link-position-5" style="font-size: 8pt;"
+                            aria-label="diamond (1 item)">diamond</a>
+                        <a class="tag-cloud-link tag-link-116 tag-link-position-6" style="font-size: 8pt;"
+                            aria-label="formatting (1 item)">formatting</a>
+                        <a class="tag-cloud-link tag-link-117 tag-link-position-7" style="font-size: 8pt;"
+                            aria-label="freedom (1 item)">freedom</a>
+                        <a class="tag-cloud-link tag-link-122 tag-link-position-8" style="font-size: 8pt;"
+                            aria-label="gold (1 item)">gold</a>
+                        <a class="tag-cloud-link tag-link-127 tag-link-position-9" style="font-size: 8pt;"
+                            aria-label="html (1 item)">html</a>
+                        <a class="tag-cloud-link tag-link-132 tag-link-position-10" style="font-size: 8pt;"
+                            aria-label="jewellry (1 item)">jewellry</a>
+                        <a class="tag-cloud-link tag-link-133 tag-link-position-11" style="font-size: 8pt;"
+                            aria-label="jewelry (1 item)">jewelry</a>
+                        <a class="tag-cloud-link tag-link-139 tag-link-position-12" style="font-size: 22pt;"
+                            aria-label="Love (2 items)">Love</a>
+                        <a class="tag-cloud-link tag-link-140 tag-link-position-13" style="font-size: 8pt;"
+                            aria-label="markup (1 item)">markup</a>
+                        <a class="tag-cloud-link tag-link-143 tag-link-position-14" style="font-size: 8pt;"
+                            aria-label="model (1 item)">model</a>
+                        <a class="tag-cloud-link tag-link-154 tag-link-position-15" style="font-size: 8pt;"
+                            aria-label="pearls (1 item)">pearls</a>
+                        <a class="tag-cloud-link tag-link-172 tag-link-position-16" style="font-size: 8pt;"
+                            aria-label="rings (1 item)">rings</a>
+                        <a class="tag-cloud-link tag-link-173 tag-link-position-17" style="font-size: 8pt;"
+                            aria-label="romantisch (1 item)">romantisch</a>
+                        <a class="tag-cloud-link tag-link-174 tag-link-position-18" style="font-size: 8pt;"
+                            aria-label="set (1 item)">set</a>
+                        <a class="tag-cloud-link tag-link-176 tag-link-position-19" style="font-size: 22pt;"
+                            aria-label="silver (2 items)">silver</a>
+                        <a class="tag-cloud-link tag-link-180 tag-link-position-20" style="font-size: 8pt;"
+                            aria-label="sterling (1 item)">sterling</a>
+                        <a class="tag-cloud-link tag-link-205 tag-link-position-21" style="font-size: 8pt;"
+                            aria-label="wedding (1 item)">wedding</a>
+                    </div>
+                </section>
 
-                    </section>
+                <hr style="color:grey;  margin-top: 3rem;">
+                <section id="archives-5" class="widget_blog widget_archive">
+                    <h3 class="widget-title"><span>Archives</span></h3>
+                    <ul>
+                        <li><a href="">August 2018</a></li>
+                        <li><a href="">May 2018</a></li>
+                        <li><a href="">January 2013</a></li>
+                    </ul>
+
+                </section>
                 </aside><!-- #secondary -->
             </div>
 

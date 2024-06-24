@@ -1,0 +1,133 @@
+.elementor-element.elementor-element-89c60bc {
+    padding: 5em 0 3em;
+}
+.elementor-element.elementor-element-bd3930c .elementor-heading-title {
+    font-size: 32px;
+    line-height: 1;
+    font-family: 'Butler';
+    color: #000;
+}
+.elementor-element.elementor-element-25024e9 {
+    color: #888686;
+    font-size: 13px;
+}
+.elementor-element {
+    width: 100%;
+}   
+.elementor-element.elementor-element-25024e9 .elementor-text-editor {
+    text-align: center;
+    /* margin-bottom: 7%; */
+}
+.underline:after, .underline-left:after, .underline-right:after {
+    content: "";
+    display: block;
+    width: 4rem;
+    height: 1px;
+    background-color: #00d1b7;
+    position: absolute;
+    bottom: 8rem;
+    left: 49%;
+    transform: translateX(-50%);
+    margin-bottom: 20px;
+}
+
+/* bottom start */
+.elementor-element-b53004b {
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+.elementor-container {
+    max-width: 1100px;
+}
+.elementor-container {
+    max-width: 1140px;
+}
+.elementor-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+.elementor-element-populated {
+    padding: 10px;
+}
+.elementor-widget-wrap {
+    position: relative;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+}
+.elementor-element.elementor-element-b53004b {
+    margin-top: 80px;
+    margin-bottom: 15px;
+}
+ .elementor-icon-box-icon {
+    margin-right: 20px;
+}
+.elementor-icon-box-wrapper {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+   align-items: flex-start;
+}
+.elementor-icon i::before{
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.elementor-icon i{
+    width: 1em;
+    height: 1em;
+    position: relative;
+    display: block;
+}
+.elementor-view-default .elementor-icon {
+    color: #2fbfb5;
+    border-color: #2fbfb5;
+}
+ .elementor-icon {
+    font-size: 38px !important;
+    display: inline-block;
+    line-height: 1;
+    transition: all .3s;
+    color: #818a91;
+    font-size: 50px;
+    text-align: center;
+}
+.elementor-icon-box-content .elementor-icon-box-title {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'poppins';
+    line-height: 28px;
+    text-align: left;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+
+}
+ .elementor-icon-box-content .elementor-icon-box-description {
+    color: #696969;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+    font-family: 'poppins';
+}
+
+@media (min-width: 768px) {
+     .elementor-col-25, .elementor-column[data-col="25"] {
+        width: 25%;
+    }
+.elementor-vertical-align-top .elementor-icon-box-wrapper {
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+}
+/* bottom End */

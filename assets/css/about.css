@@ -1,0 +1,493 @@
+
+
+/* our story start */
+.elementor-element-7d68236 {
+    /* margin-top: 45px; */
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.elementor-section {
+    position: relative;
+}
+ .elementor-heading-title {
+    font-size: 32px;
+    text-align: center;
+    font-family: 'butler';
+}
+ .elementor-element.elementor-element-30cd9cb .elementor-text-editor {
+    text-align: center;
+   
+}
+.elementor-element.elementor-element-30cd9cb {
+    color: #696969;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: 'poppins';
+}
+
+.elementor-element-dded2f1>.elementor-container {
+    max-width: 868px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.elementor-widget-wrap {
+    position: relative;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+}
+.elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated {
+    padding: 10px;
+}
+
+
+@media only screen and (max-width: 567px) {
+
+    .elementor-container.our_story_container {
+        padding: 0 !important; /* Remove padding */
+        margin: 0 !important; /* Remove margin */
+    }
+
+    .story_text_container {
+        padding: 0 !important; /* Remove padding */
+        margin: 0 !important; /* Remove margin */
+    }
+
+    .elementor-widget-heading.elementor-widget-container {
+        margin-bottom: 0 !important; /* Remove bottom margin from the heading widget */
+    }
+    .elementor-widget-wrap{
+        padding: 5px !important;
+    }
+}
+/* our story end */
+
+
+/* banner image start */
+.elementor-element-989ab60:not(.elementor-motion-effects-element-type-background) {
+  background-image: url(https://mldrbgfat3wx.i.optimole.com/SQPHnU0-SXGRObHI/w:auto/h:auto/q:auto/http://dici.themes.zone/main/wp-content/uploads/sites/8/2019/04/jacek-dylag-564129-unsplash_bacm_opt.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+ .elementor-element.elementor-element-989ab60 {
+    transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
+}
+ .elementor-element.elementor-element-989ab60>.elementor-container {
+    min-height: 500px;
+}
+/* .elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 1140px;
+} */
+@media (min-width: 1025px) {
+    .elementor-element.elementor-element-989ab60:not(.elementor-motion-effects-element-type-background), .elementor-2198 .elementor-element.elementor-element-989ab60>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-attachment: fixed;
+    }
+}
+@media only screen and (max-width: 567px) {
+    .elementor-section.elementor-top-section.elementor-element-989ab60 {
+        width: 100% !important; /* Ensures the section takes full width */
+        left: 0 !important; /* Aligns the section to the left edge */
+    }
+}
+/* banner image end */
+
+/* banner image bottom start */
+.elementor-element.elementor-element-0b213d6 {
+    margin-top: 45px;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.elementor-image-box-title {
+    font-size: 24px;
+    line-height: 1em;
+    font-family: Butler;
+    color: #000; 
+}
+
+.elementor-image-box-description {
+    color: #696969;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'poppins';
+    line-height: 26px;
+}
+.elementor-image-box-img {
+    margin-bottom: 15px; /* Space between image and text */
+}
+ .elementor-element.elementor-element-e5f8513 .elementor-image-box-title {
+    margin-bottom: 20px;
+}
+
+.elementor-element.elementor-element-0b213d6 > .elementor-container {
+    max-width: 1200px;
+}
+
+.elementor-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px; /* Negative margin to counteract column gutters */
+}
+
+.elementor-column {
+    flex: 1 0 33.33%; /* Each column takes up one-third of the container */
+    padding: 15px; /* Padding to create space between columns */
+    box-sizing: border-box; /* Include padding in column width calculation */
+}
+
+.elementor-element-populated {
+    width: 100%; /* Ensure content within columns stretches full width */
+}
+
+.elementor-image-box-wrapper {
+    display: flex;
+    flex-direction: column; /* Stack image and content vertically */
+    align-items: center; /* Center align items horizontally */
+    text-align: center; /* Center align text */
+}
+
+.elementor-image-box-img {
+    margin-bottom: 15px;
+    transition-duration: .3s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
+ .elementor-element.elementor-element-f423705>.elementor-widget-container {
+    padding: 0 30px;
+}
+.elementor-widget-image-box .elementor-image-box-wrapper {
+    text-align: center;
+}
+.elementor-animation-float:hover {
+    height: auto;
+    max-width: 100%;
+    border: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    transform: translateY(-10px); 
+    transition-duration: .3s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
+@media only screen and (max-width: 567px) {
+    .elementor-column.elementor-col-33 {
+        display: contents;
+    }
+    .elementor-image-box-description {
+        font-size: 15px !important;
+        font-weight: 400;
+        line-height: 1.5;
+        font-family: 'poppins';
+        margin: 2px 39px;
+        color: #888686;
+    }
+}
+/* banner image bottom end */
+
+/* our team start */
+.elementor-element.elementor-element-cd7f890 {
+    color: #888686;
+    font-size: 13px;
+    text-align: center;
+}
+.elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated {
+    padding: 10px;
+}
+.elementor-element.elementor-element-93d48a1 {
+    margin-top: 45px;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.underline_story:after, .underline-left:after, .underline-right:after {
+    content: "";
+    display: block;
+    width: 4rem;
+    height: 1px;
+    background-color: #f3d400;
+    position: absolute;
+    bottom: 18rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.underline:after, .underline-left:after, .underline-right:after {
+    bottom: -1.25rem;
+}
+
+/* images start 1st row */
+.team_container {
+    max-width: 800px;
+    display: -ms-flexbox;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 40px 0 0;
+}
+
+.elementor-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin: -15px; 
+}
+
+.elementor-column {
+    flex: 1 0 33.33%; 
+    padding: 15px;
+    box-sizing: border-box; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column; 
+}
+
+.elementor-element-populated {
+    width: 100%; 
+}
+
+.elementor-image-box-wrapper {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center; 
+}
+
+.elementor-image-box-img {
+    margin-bottom: 15px; /* Space between image and text */
+    transition-duration: .3s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
+
+.elementor-image-box-title {
+    color: #1d1d1d;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'poppins';
+    font-size: 15px;
+}
+.elementor-element.elementor-element-6a72aa5 .elementor-image-box-title {
+    margin-bottom: 5px;
+}
+.elementor-image-box-description {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'poppins';
+    color: #888686;
+}
+
+.elementor-animation-float:hover {
+    height: auto;
+    max-width: 100%;
+    border: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    transform: translateY(-10px); /* Example of a floating effect on hover */
+    transition-duration: .3s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
+.elementor-widget-wrap>.elementor-element {
+    width: 100%;
+}
+.elementor-widget:not(:last-child) {
+    margin-bottom: 20px;
+}
+.elementor-2198 .elementor-element.elementor-element-3638c76 {
+    padding: 40px 0 0;
+}
+/* our team end */
+
+
+/* testimional start */
+.elementor-element-5ec7b7a:not(.elementor-motion-effects-element-type-background), .elementor-2198 .elementor-element.elementor-element-5ec7b7a>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #f6f6f6;
+}
+.elementor-element-5ec7b7a {
+    transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
+    /* padding: 70px 0 0; */
+}
+ .elementor-heading-title {
+    font-size: 32px;
+    font-family: Butler;
+    line-height: 1.3;
+    color: #000;
+}
+.underline_team:after, .underline_team-left:after, .underline_team-right:after {
+    content: "";
+    display: block;
+    width: 4rem;
+    height: 1px;
+    background-color: #f3d400;
+    position: absolute;
+    bottom: -1rem !important;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.underline_team:after, .underline_team-left:after, .underline_team-right:after {
+    bottom: -1.25rem;
+}
+ .elementor-testimonial-content {
+    color: #626262;
+    font-size: 18px;
+    /* margin: 45px; */
+    line-height: 32px;
+    font-weight: 400;
+    font-family: 'poppins';
+}
+.elementor-testimonial-wrapper {
+    overflow: hidden;
+    text-align: center;
+    /* width: 800px; */
+}
+ .elementor-testimonial-meta {
+    width: 100%;
+    line-height: 1;
+    margin-bottom: 3rem;
+}
+.elementor-testimonial-wrapper .elementor-testimonial-meta.elementor-testimonial-image-position-top .elementor-testimonial-image {
+    margin-bottom: 20px;
+}
+.elementor-testimonial-image-position-top .elementor-testimonial-details, .elementor-testimonial-wrapper .elementor-testimonial-meta.elementor-testimonial-image-position-top .elementor-testimonial-image {
+    display: block;
+}
+.elementor-testimonial-wrapper .elementor-testimonial-meta .elementor-testimonial-image img {
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    max-width: none;
+}
+ .elementor-element.elementor-element-7e4ded9 .elementor-testimonial-name {
+    color: #000;
+    font-size: 15px;
+}
+ .elementor-element.elementor-element-f8ea00e>.elementor-container {
+    max-width: 800px;
+}
+.our_story_container{
+    margin: 40px;
+}
+.story_text_container{
+    margin: 40px;
+}
+.elementor-widget-container_test {
+    margin: 45px;
+    text-align: center;
+}
+.elementor-testimonial-wrapper .elementor-testimonial-name {
+    line-height: 23px;
+    color: inherit;
+    font-weight: 400;
+    display: block;
+    font-family: 'poppins';
+    font-size: 15px;
+}
+ .elementor-element.elementor-element-7e4ded9 .elementor-testimonial-job {
+    color: #9a9a9a;
+    font-size: .85em;
+    line-height: 13px;
+    font-weight: 400;
+    font-family: 'poppins';
+    display: block;
+}
+.bottom_testiminol{
+    border-style: solid;
+    border-width: 1px 0 0;
+    border-color: #ebebeb;
+    transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.team-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team-row .elementor-column {
+    flex: 0 0 33%;
+    max-width: 33%;
+    box-sizing: border-box;
+}
+.underline_testimonial h2 {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px; /* Adjust the padding as needed */
+}
+
+.underline_testimonial h2::after {
+    content: "";
+    position: absolute;
+    width: 67px; 
+    height: 1px; 
+    background-color: #f3d400; 
+    bottom: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.testimonal_flex{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+/* Responsive adjustments for screens up to 567px */
+@media only screen and (max-width: 567px) {
+    .elementor-section.elementor-section-stretched {
+        padding: 30px 10px; /* Adjust padding for mobile */
+    }
+
+    .elementor-container.elementor-column-gap-default {
+        padding: 0; /* Remove default padding on container */
+    }
+
+    .elementor-column.elementor-col-100 {
+        width: 100%; /* Full width for the column */
+    }
+
+    .elementor-testimonial-meta {
+        flex-direction: column; /* Stack meta content vertically */
+        text-align: center; /* Center align text */
+    }
+
+    .elementor-testimonial-image {
+        margin-bottom: 10px; /* Space between image and text */
+    }
+    .elementor-testimonial-wrapper {
+        overflow: hidden; /* Ensure no overflow */
+        text-align: center; /* Center align the content */
+    }
+
+    .elementor-testimonial-content {
+        max-width: 100%; /* Ensure content does not exceed the wrapper width */
+        margin-left: auto; /* Align center */
+        margin-right: auto; /* Align center */
+    }
+
+    .elementor-testimonial-meta {
+        flex-direction: column; /* Stack meta content vertically */
+        text-align: center; /* Center align text */
+    }
+
+    .elementor-testimonial-image {
+        margin-bottom: 10px; /* Space between image and text */
+        margin-left: auto; /* Align center */
+        margin-right: auto; /* Align center */
+    }
+}
+/* testimional End */

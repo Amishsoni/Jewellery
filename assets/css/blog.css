@@ -110,7 +110,7 @@
 /* left side content end */
 
 /* right side search bar start */
-.search-form {
+ .search-form {
     position: relative;
     display: flex;
     align-items: center;
@@ -118,8 +118,8 @@
   
   .search-field {
     width: 100%;
-    padding-right: 40px; /* Adjust this value to give space for the search icon */
-    height: 40px; /* Adjust the height as needed */
+    padding-right: 40px; 
+    height: 40px; 
     box-sizing: border-box;
     padding: 0.67rem 1.5rem .57rem !important;
   }
@@ -134,13 +134,13 @@
   }
   
   .search-submit i {
-    font-size: 1.4rem; /* Adjust the icon size */
-    color: #858585; /* Adjust the color as needed */
+    font-size: 1.4rem; 
+    color: #858585;
     font-weight: 600;
   }
 .search_input_width{
     width: 17rem;
-}
+} 
 
 /* right side search bar End  */
 
@@ -155,15 +155,13 @@
     padding: 20px 20px 19px;
     margin-bottom: 10px;
 }
-#secondary>*:not(.widget-title) {
 
-}
-section {
+/* section {
     max-width: 292px;
     margin-bottom: 33px;
     padding-bottom: 33px;
     border-bottom: 1px solid #ebebeb;
-}
+} */
 .widget-title {
     font-family: 'Butler';
     font-size: 22px;
@@ -178,12 +176,11 @@ section {
     position: relative;
     letter-spacing: .5px;
 }
-.widget-title span {
-    position: relative;
-}
+
 table {
     margin: 0 0 1.5em;
     width: 100%;
+    caption-side: top !important;
 }
 .calendar_wrap table caption {
     text-align: center;
@@ -196,11 +193,45 @@ table {
 }
 .widget_calendar table thead, .widget_calendar table tbody, .widget_calendar table tfoot {
     font-size: 13.005px;
+} 
+.wp-calendar-nav-prev{
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: left;
+  color: #262626;
 }
-.widget_calendar table thead td, .widget_calendar table thead th, .widget_calendar table tbody td, .widget_calendar table tbody th, .widget_calendar table tfoot td, .widget_calendar table tfoot th {
-    padding: .5em 0;
-    text-align: center;
+/* calender end */
+
+/* tags section start */
+.widget_tag_cloud .tagcloud a {
+  display: inline-block;
+  padding: 4px 12px 3px;
+  margin: 5px 4px;
+  font-size: 11px !important;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 3rem;
+  color: #fff;
+  background-color: #000;
+  transition: color .4s ease-in, background-color .4s ease-in;
+} 
+
+/* tags section end */
+
+/* archives section start  */
+ .widget_blog ul {
+  padding-left: 0;
+  list-style: none;
 }
-.widget_calendar table thead, .widget_calendar table tbody, .widget_calendar table tfoot {
-    font-size: 13.005px;
+ .widget_blog li {
+  margin: .667rem 0;
+  font-size: 15px;
 }
+  .widget_blog li a {
+    color: #232323;
+    font-weight: 500;
+    display: inline;
+    position: relative;
+    text-decoration: none;
+    transition: color .4s ease-in;
+  } 

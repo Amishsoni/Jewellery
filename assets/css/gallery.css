@@ -1,0 +1,172 @@
+/* Set uniform size for gallery images */
+.elementor-widget-image-gallery .gallery-icon img {
+    width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+    transition: filter 0.3s, transform 0.3s;
+    flex-wrap: wrap;
+}
+
+/* Add margins around each gallery item */
+.elementor-widget-image-gallery .gallery-item {
+    margin-bottom: 20px;
+    padding: 5px;
+    position: relative;
+    overflow: hidden;
+}
+.elementor-image-gallery .gallery .gallery-item .gallery-icon a {
+    position: relative;
+    display: block;
+    line-height: 0;
+    overflow: hidden;
+    text-decoration: none;
+}
+/* Dark overlay effect */
+.elementor-widget-image-gallery .gallery-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: rgba(0, 0, 0, 0.6);  */
+    transition: background 0.3s;
+}
+
+/* Text inside the gallery item */
+.elementor-widget-image-gallery .gallery-item .gallery-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0s 0.3s;
+    text-align: center;
+    visibility: hidden;
+}
+
+/* Hover effects */
+.elementor-widget-image-gallery .gallery-item:hover img {
+    filter: grayscale(0%);
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+
+.elementor-widget-image-gallery .gallery-item:hover .gallery-text {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s;
+}
+ .elementor-element.elementor-element-1d5350d {
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.elementor-image-gallery .gallery .gallery-item:hover .gallery-caption {
+    opacity: 1;
+    transform: translateY(0);
+}
+ .elementor-element.elementor-element-6fa66dd .gallery-item .gallery-caption {
+    text-align: left;
+    color: #fff;
+}
+.elementor-image-gallery .gallery .gallery-item .gallery-caption {
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    font-size: 19.995px;
+    color: #fff;
+    font-style: normal;
+    padding: 1rem 1.667rem;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: transform .4s ease-in, opacity .4s ease-in;
+    z-index: 3;
+}
+.elementor-image-gallery figure figcaption {
+    width: 100%;
+}
+figcaption {
+    font-size: .75em;
+    font-style: italic;
+}
+
+
+
+
+  .gallery-columns-3 .gallery-item {
+    width: 33.33%;
+}
+
+
+@media (max-width: 400px) {
+    .gallery-columns-3 .gallery-item {
+        width: 100%;
+    }
+}
+
+/* Flexbox for the gallery container */
+.elementor-image-gallery .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.elementor-image-gallery .gallery-item {
+    margin-bottom: 15px; 
+}
+
+@media (max-width: 567px) {
+    .elementor-image-gallery {
+
+        height: auto;
+        position: static; 
+    }
+    .elementor-image-gallery figure.gallery-item {
+        position: static !important; 
+        width: 100% !important; 
+        margin-bottom: 0px; 
+    }
+    .elementor-image-gallery figure.gallery-item .gallery-icon {
+        float: none; 
+    }
+    .elementor-image-gallery figure.gallery-item figcaption.wp-caption-text {
+        text-align: center; /* Optional: Center align captions */
+    }
+    .elementor-element.elementor-element-1d5350d {
+        margin-top: 60px;
+        margin-bottom: 91rem;
+    }
+    .gallery-columns-3 .gallery-item {
+        width: 50%; 
+    }
+}
+
+@media (max-width: 375px) {
+    .elementor-element.elementor-element-1d5350d {
+        margin-top: 60px;
+        margin-bottom: 121rem;
+    }
+}
+@media (max-width: 425px) {
+    .elementor-element.elementor-element-1d5350d {
+        margin-top: 60px;
+        margin-bottom: 147rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .elementor-element.elementor-element-1d5350d {
+        margin-top: 60px;
+        margin-bottom: 91rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    
+  .gallery-columns-3 .gallery-item {
+    width: 33.33%; /* Set each item to occupy 1/3rd of the container width */
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+    box-sizing: border-box; 
+}
+}

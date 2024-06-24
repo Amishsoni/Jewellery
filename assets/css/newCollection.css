@@ -9,6 +9,9 @@
     text-align: center;
     left: 45%;
     top: 41%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .show_page a{
     color: #000;
@@ -34,6 +37,7 @@
 .header_collection {
         position: absolute;
         top: 20px;
+        text-wrap: nowrap;
 }
 .header_collection h1{
 font-size: 40px;
@@ -423,6 +427,19 @@ font-family: poppins;
 
 
 /* search section start  */
+.search_submit_1{
+    position: absolute;
+    right: 21px;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+.search_submit_1 i {
+    font-size: 1.4rem;
+    color: #858585;
+    font-weight: 600;
+}
  .search-field {
     background-color: #f8f9fa;
     border-color: #f8f9fa;
